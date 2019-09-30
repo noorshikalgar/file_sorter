@@ -149,9 +149,4 @@ class FileSorter:
                 self.moveFiles(destination)
 
 
-file_sorter = FileSorter("D:/Projects/Testing")
-files = file_sorter.scan()
-file_sorter.storeInJson("files_info.json")
-file_sorter.sort()
-
 
